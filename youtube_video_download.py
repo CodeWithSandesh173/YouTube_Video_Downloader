@@ -1,7 +1,7 @@
 import yt_dlp #pip install yt_dlp
 
 # URL of the video you want to download
-video_url = input("Enter video url")
+video_url = input("Enter video url: ")
 
 # Options for downloading
 ydl_opts = {
@@ -12,3 +12,5 @@ ydl_opts = {
 # Download the video
 with yt_dlp.YoutubeDL(ydl_opts) as ydl:
     ydl.download([video_url])
+
+print ("Please message Sandesh Bhandari (bhandaryshandesh2@gmail.com) if you used it!")
